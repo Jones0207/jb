@@ -1,3 +1,4 @@
+'''cron:  */15 9-22 * * * new Env('港仔猫131');'''
 # -*- coding:utf-8 -*-
 import requests
 #云函数使用教程(http://qr61.cn/ogpvAF/qMXaiV7）环境选python3.6,超时设置900s，触发器定时（0 */15 7-23 * * * *）
