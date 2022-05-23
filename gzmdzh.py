@@ -13,7 +13,7 @@ all_switch='https://wwp.lanzouw.com/b0ert2c9e'
 #1.港仔猫子开关:支持多账号，需传token参数，多账号蓝奏云链接之间用#隔开
 folder = 'https://wwp.lanzouw.com/b0eqmifbc#https://wwp.lanzouw.com/b0erhxosj#https://wwp.lanzouw.com/b0erhxn9e'
 #2.手机号，填写账号信息，支持多账号，手机号之间用#隔开，必须和folder一一对应，否则会报错
-phone = '13005275420#189998275420#13169256776'
+phone = '13005275420#18998275420#13169256776'
 #3.(选填，不填则不推送)微信pushplus通知推送参数
 Token = ''
 #4.(选填，不填则不推送)企业微信推送参数
