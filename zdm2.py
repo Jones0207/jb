@@ -1,3 +1,8 @@
+'''
+cron: 0 5 09,14 * * *
+new Env('值得买2号');
+'''
+
 import requests
 import json, random, datetime, time
 #time.sleep(random.randint(0,30))#随机延迟5分钟内
