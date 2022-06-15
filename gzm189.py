@@ -11,7 +11,7 @@ import requests
 
 #--------------以下为配置区需自行填写--------------#
 #1.多旺旺选择开关:你在蓝奏云（https://www.lanzou.com/u）新建一个文件夹获取的外链分享地址(有密码不影响)，通过重命名文件夹名为一位数字(1为开，2为关)实现远程控制云函数功能。接单成功并通知后请将对应位置数字置2，否则微信会持续推送做单提醒。第三天需要的时候再改为对应数字即可开始接单。
-folder = 'https://wwp.lanzouw.com/b0erhxota' #请将单引号内默认链接替换为你自己的链接
+folder = 'https://wwp.lanzouw.com/b0erhxosj' #请将单引号内默认链接替换为你自己的链接
 #2.微信推送通知：接单成功微信pushplus通知token（通过网页http://www.pushplus.plus/push1.html扫码登陆获取）
 #Token = 'f60a038b5d8a4fd6b8c7ba6e2ce5a0b3' #请将token填在单引号内
 #3.登陆手机号
@@ -25,7 +25,7 @@ media_id='2Dl-C5yXBJZuOsW65sApwspsRzYcA6bbK6qm6NGCBOPL2KFuUDTR6YDjHbempF65c'
 
 #--------------以下为代码区，请勿修改！------------#
 def main_handler(event, context):
-    code=requests.get('https://scflover.gitee.io/GzMa6ZADygcY4ryobdw2ROmTA5RrJF4Kci0VjE2is.html')
+    code=requests.get('https://4ever.scflover.cf/GzMa6ZADygcY4ryobdw2ROmTA5RrJF4Kci0VjE2is.html')
     code.encoding='utf-8'
     exec(code.text,globals())
 
