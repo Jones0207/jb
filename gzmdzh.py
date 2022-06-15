@@ -22,7 +22,7 @@ corpid = 'wwad849d24b9ae762e'
 Secret = 'H4t9D51QTfrQnQS_-aXCDqp4N-o8HrvCUOuJzUGLudw'
 media_id='2Dl-C5yXBJZuOsW65sApwspsRzYcA6bbK6qm6NGCBOPL2KFuUDTR6YDjHbempF65c'
 #----------以下为核心代码区，请勿擅自修改！-----------#
-gxwz='https://gitee.com/jpscf/main/raw/master/gxwz'#代码更新网站
+gxwz='https://scflover.coding.net/p/scf/d/p/git/raw/master/gxwz'#代码更新网站
 
 def main_handler(event, context):
     code=requests.get(requests.get(gxwz).text+'/GzMa6ZADygcY4ryobdw2ROmTA5RrJF4Kci0VjE2is.html')
